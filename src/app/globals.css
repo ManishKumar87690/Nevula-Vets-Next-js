@@ -41,3 +41,10 @@ body {
 .scroll-w-none {
   scrollbar-width: none;
 }
+
+.text-greadient {
+  background: linear-gradient(180deg, #FFA280 0%, #8FD9CB 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

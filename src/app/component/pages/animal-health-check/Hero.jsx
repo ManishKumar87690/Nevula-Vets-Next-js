@@ -14,6 +14,7 @@ function Hero() {
         btnTitle={"book now"}
         imgClass={"lg:mt-24"}
         leftSection={"!pb-[43px]"}
+        coninerClass={"min-[1180px]:!px-0 md:px-6 px-4"}
       />
     </div>
   );

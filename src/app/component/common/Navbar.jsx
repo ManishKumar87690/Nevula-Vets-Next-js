@@ -18,7 +18,7 @@ function Navbar() {
   return (
     <nav>
       <div className="ff-robot-mono">
-        <div className="bg-[#494336] xl:px-12 lg:px-8 md:px-6 px-4 sm:py-4 py-3 fixed z-10 w-full">
+        <div className="bg-[#494336] xl:px-12 lg:px-8 md:px-6 px-4 sm:py-4 py-3 fixed z-50 w-full">
           <div className="flex items-center justify-between">
             <div>
               <Link href={"/"}>
@@ -49,20 +49,25 @@ function Navbar() {
         </div>
       </div>
       {open && (
-        <div className="flex w-full h-screen z-10 fixed inset-0 top-0">
+        <div className="flex w-full h-screen z-[100] fixed inset-0 top-0">
           <div
             className="sm:w-2/4 w-0 bg-black/45 h-screen"
             onClick={forClosseBtn}
           ></div>
-          <div className="sm:w-2/4 w-full bg-[#494336] relative pt-10 overflow-y-auto transition-all duration-700">
-            <button
-              className="text-[50px] absolute right-5"
-              onClick={forClosseBtn}
-            >
-              x
-            </button>
-            <div className="flex justify-center flex-col gap-8 items-center m-auto">
-              <ul className="flex flex-col gap-8">
+          <div className="sm:w-2/4 w-full bg-[#494336] relative  overflow-y-auto transition-all duration-700">
+            <div>
+              <Link href={"/"} className="absolute left-10 top-5">
+                <Logo />
+              </Link>
+              <button
+                className="text-[50px] absolute right-10 text-[#fff]"
+                onClick={forClosseBtn}
+              >
+                x
+              </button>
+            </div>
+            <div className="flex justify-center flex-col gap-8 items-center m-auto mt-24">
+              <ul className="flex items-center flex-col gap-8">
                 {NavLinks.map((item, index) => (
                   <li key={index}>
                     <Link

@@ -14,7 +14,10 @@ function Bottombar() {
         btnTitle={"book now"}
         link={"#"}
         img={"/assetes/img/png/be-look-for-forword-img.png"}
-        className={"max-w-[867px]"}
+        className={"!max-w-[1067px]"}
+        perentClass={"md:!pt-[80px] !pt-[60px] min-h-[388px]"}
+        contianerClass={"xl:!ms-auto ms-0 xl:!min-w-[1248px]"}
+        peraClass={"max-w-[867px]"}
       />
     </div>
   );

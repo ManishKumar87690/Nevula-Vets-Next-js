@@ -12,13 +12,18 @@ function CommunHero({
   btnTitle,
   imgClass,
   leftSection,
+  perentClass,
+  coninerClass,
+  imgPerentClass,
 }) {
   return (
-    <div className="bg-[#494336]">
-      <div className="flex lg:items-center justify-between lg:gap-[101px] lg:flex-row flex-col-reverse">
-        <div className="max-w-[1181px] xl:ps-12 lg:ps-8 md:ps-6 ps-4 lg:mx-auto">
+    <div className={`${perentClass} bg-[#494336]`}>
+      <div className="flex lg:items-center justify-between lg:flex-row flex-col-reverse">
+        <div
+          className={`${coninerClass} max-w-[700px] xl:px-12 lg:px-8 md:px-6 px-4 lg:mx-auto`}
+        >
           <div
-            className={`max-w-[660px] lg:mt-[210px] -mt-16 sm:pb-[85px] pb-6 ${leftSection}`}
+            className={`min-[1350px]:min-w-[660px] xl:min-w-[580px] lg:mt-[210px] -mt-16 sm:pb-[85px] pb-6 ${leftSection}`}
           >
             <Heading
               title={title}
@@ -32,7 +37,9 @@ function CommunHero({
             </div>
           </div>
         </div>
-        <div className="flex items-end justify-end lg:pe-0 md:pe-6 pe-4">
+        <div
+          className={`${imgPerentClass} flex items-end justify-end lg:pe-0 md:pe-6 pe-4`}
+        >
           <Image
             className={`lg:pt-0 pt-[120px] lg:max-w-[428px] md:max-w-[400px] sm:max-w-[300px] max-w-[216px] ${imgClass}`}
             src={img}

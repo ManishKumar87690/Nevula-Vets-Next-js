@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Heading from "../../common/Heading";
 import Pera from "../../common/Pera";
-import { openHoursData } from "../../common/helper/Helper";
+import { openHoursData, testdata } from "../../common/helper/Helper";
 
 function OpenHours() {
   return (
@@ -33,6 +33,29 @@ function OpenHours() {
           ))}
         </div>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      {testdata.map((item, indx) => {
+        return (
+          <div key={indx}>
+            <h1 className={`${item.className}`}>{item.heading}</h1>
+            <p>
+              {item.pera.map((para, i) => (
+                <span key={i} className={`${para.className}`}>
+                  {para.text}
+                </span> // Access `text` property correctly
+              ))}
+            </p>
+          </div>
+        );
+      })}
     </div>
   );
 }

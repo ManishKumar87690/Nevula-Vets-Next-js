@@ -2,6 +2,7 @@ import WhatLaserTherapy from "../../pages/laser-therapy/WhatLaserTherapy";
 import Pera from "../Pera";
 import {
   AdditionalServicesIcon,
+  CircleIcon,
   FacebookIcon,
   InstaIcon,
   LinkedingIcon,
@@ -1087,6 +1088,146 @@ export const mapData = [
       { text: "Monday - Friday: 8AM - 6PM" },
       { text: "Saturday: 9AM - 5PM" },
       { text: "Sunday: Closed" },
+    ],
+  },
+];
+
+export const ourJoinSliderData = [
+  { img: "/assetes/img/png/parker-cat-img 1.png" },
+  { img: "/assetes/img/png/marta-markes-cat-img.png" },
+  { img: "/assetes/img/png/parker-cat-img 1.png" },
+  { img: "/assetes/img/png/marta-markes-cat-img.png" },
+  { img: "/assetes/img/png/parker-cat-img 1.png" },
+  { img: "/assetes/img/png/marta-markes-cat-img.png" },
+];
+
+export const careerAcordianData = [
+  {
+    title: "Commitment to Excellence",
+    text: "At Nebula Vets, we strive for excellence in everything we do. Our team is committed to providing the highest quality veterinary care, utilizing advanced technologies, and staying up-to-date with the latest advancements in the field. We foster a culture of continuous learning and growth, encouraging our team members to expand their knowledge and skills.",
+  },
+  {
+    title: "Collaborative and Supportive Environment",
+    text: "We value teamwork and collaboration. At Nebula Vets, you will be part of a supportive and inclusive team that shares a common goal: providing exceptional care to our patients. Our collaborative environment encourages open communication, knowledge sharing, and mutual support among team members. ",
+  },
+  {
+    title: "Advanced Facilities and Technology",
+    text: "Nebula Vets is equipped with state-of-the-art facilities and cutting-edge technology to support our veterinary professionals. We believe in investing in the best resources to deliver outstanding care. Our advanced equipment and tools enable our team to provide accurate diagnoses and deliver effective treatments.",
+  },
+  {
+    title: "Focus on Work-Life Balance",
+    text: "We understand the importance of maintaining a healthy work-life balance. At Nebula Vets, we strive to create schedules that allow our team members to enjoy their personal lives while pursuing fulfilling careers. We prioritize employee well-being and believe that a happy team leads to better patient care.",
+  },
+  {
+    title: "Continuous Professional Development",
+    text: "Nebula Vets is committed to the growth and development of our team members. We offer opportunities for continuing education, conferences, workshops, and training programs to enhance your veterinary skills and broaden your knowledge base. We believe in supporting your professional goals and providing the resources you need to excel in your career.",
+  },
+  {
+    title: "A Culture of Compassion",
+    text: "At Nebula Vets, compassion is at the heart of everything we do. We not only care for our patients but also prioritize empathy and understanding towards their families. Our team is dedicated to delivering personalized care with kindness, sensitivity, and respect.",
+  },
+];
+
+export const communityEngagementData = [
+  {
+    img: "/assetes/img/png/forest-pictur.png",
+    textOnImg: "picture of Daniel",
+    subSection: [
+      {
+        hClass: "!mt-0",
+        title: "Community Engagement and Educatio",
+        text: "Nebula Vets is committed to being an active and integral part of the community we serve. We actively engage in educational initiatives, organizing workshops, seminars, and community events to spread awareness about pet care, responsible ownership, and the importance of preventive medicine.",
+      },
+      {
+        title: "Sustainability & Environmental Responsibility",
+        text: "Recognizing the impact of the veterinary field on the environment, Nebula Vets is dedicated to promoting sustainability and environmental responsibility. We have implemented eco-friendly practices within our facility, reduced waste, and actively participate in initiatives that support a greener future for veterinary medicine.",
+      },
+    ],
+  },
+];
+export const picSectionData = [
+  {
+    img: "/assetes/img/png/pictur-of-denia.png",
+    textOnImg: "picture of Daniel",
+    subSection: [
+      {
+        hClass: "!mt-0",
+        title: "Inspiration and Vision",
+        text: "Daniel's journey began with a profound inspiration to make a positive impact on the lives of pets and their owners. He envisioned a veterinary practice that would go beyond the conventional norms, offering exceptional care, innovative treatments, and a compassionate approach.",
+      },
+      {
+        title: "Inspiration and Vision",
+        text: "Daniel's journey began with a profound inspiration to make a positive impact on the lives of pets and their owners. He envisioned a veterinary practice that would go beyond the conventional norms, offering exceptional care, innovative treatments, and a compassionate approach.",
+      },
+    ],
+  },
+];
+
+export const innovationData = [
+  {
+    title: "Innovation and Cutting-Edge Technology",
+    hClass: "!mt-0",
+    text: "Nebula Vets embraced the power of innovation and embraced cutting-edge technology to enhance their diagnostic capabilities, treatment options, and overall patient care. From advanced imaging techniques to state-of-the-art surgical equipment, Nebula Vets ensures that their veterinarians have access to the latest tools and techniques to deliver optimal outcomes.",
+  },
+  {
+    title: "Compassionate Care & Client Relationships",
+    text: "Nebula Vets prides itself on providing compassionate care not only to the pets but also to their owners. We understand the deep bond between humans and animals and strive to create a nurturing and supportive environment for both. Building strong client relationships based on trust, open communication, and empathy is at the heart of their practice.",
+  },
+];
+
+export const teamData = [
+  {
+    img: "/assetes/img/svg/circle-img.svg",
+    subText: [
+      {
+        drName: "Dr. Daniel Hodnett-Lewis",
+        specilist: "Chief Veterinary Officer",
+      },
+    ],
+  },
+  {
+    img: "/assetes/img/svg/circle-img.svg",
+    subText: [
+      {
+        drName: "Dr. Jane Doe",
+        specilist: "Veterinarian",
+      },
+    ],
+  },
+  {
+    img: "/assetes/img/svg/circle-img.svg",
+    subText: [
+      {
+        drName: "Dr. Jane Doe",
+        specilist: "Veterinarian",
+      },
+    ],
+  },
+  {
+    img: "/assetes/img/svg/circle-img.svg",
+    subText: [
+      {
+        drName: "Dr. Jane Doe",
+        specilist: "Veterinarian",
+      },
+    ],
+  },
+  {
+    img: "/assetes/img/svg/circle-img.svg",
+    subText: [
+      {
+        drName: "Dr. Jane Doe",
+        specilist: "Veterinarian",
+      },
+    ],
+  },
+  {
+    img: "/assetes/img/svg/circle-img.svg",
+    subText: [
+      {
+        drName: "Dr. Jane Doe",
+        specilist: "Veterinarian",
+      },
     ],
   },
 ];

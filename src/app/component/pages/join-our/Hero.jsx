@@ -12,6 +12,7 @@ function Hero() {
         btnTitle={"APPLY TODAY"}
         link={"#"}
         img={"/assetes/img/png/Career Icon.png"}
+        coninerClass={"max-w-[790px]"}
       />
     </div>
   );

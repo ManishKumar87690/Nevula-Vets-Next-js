@@ -31,9 +31,9 @@ function Navbar() {
                   <li key={index}>
                     <Link
                       href={item.link}
-                      className="text-sm font-media text-[#D7D9DD] 
+                      className={`text-sm font-media text-[#D7D9DD] 
                bg-clip-text hover:text-transparent transition-all duration-500 
-             bg-gradient-to-r hover:from-[#8FD9D9] hover:to-[#FFA280]"
+             bg-gradient-to-r hover:from-[#8FD9D9] hover:to-[#FFA280] ${item.linkClass}`}
                     >
                       {item.linkTitle}
                     </Link>
@@ -49,7 +49,7 @@ function Navbar() {
         </div>
       </div>
       {open && (
-        <div className="flex w-full h-screen z-[100] fixed inset-0 top-0">
+        <div className="flex w-full h-screen z-[100] fixed inset-0 top-0 overflow-auto">
           <div
             className="sm:w-2/4 w-0 bg-black/45 h-screen"
             onClick={forClosseBtn}
